@@ -1,5 +1,4 @@
 const data = {
-  text: 'Hello World!',
   style: {
     h1: `
       padding-bottom: 1em;
@@ -9,7 +8,7 @@ const data = {
 }
 
 const template = `
-  <h1 style="${data.style.h1}">${data.text}</h1>
+  <h1 style="${data.style.h1}">{{ this.title }}</h1>
 `
 
 export default template

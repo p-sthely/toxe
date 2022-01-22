@@ -4,7 +4,7 @@
  */
 
 const data = {
-    message: 'hello!'
+  message: 'hello!'
 }
 
 /**
@@ -12,5 +12,5 @@ const data = {
  * *************************
  */
 window.onload = () => {
-    console.log(`Message from src/main.js : ${data.message}`)
+  console.log(`Message from src/main.js : ${data.message}`)
 }
