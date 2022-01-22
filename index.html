@@ -41,6 +41,10 @@
       }
     }
 
+    // disable shadow DOM so you can use Bootstrap classes
+    HomepageView.useShadow = false
+
+    // create the component
     Slim.element('homepage-view', template, HomepageView)
 
     // render the template
